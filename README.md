@@ -156,4 +156,12 @@ Now refresh your browser and check out your heart!
 
 If you'd like to change properties in your `styles.css` file, start with `background` and then change size properties like `height` and `width`. Refresh your browser to see how changing these values changes the content on the webpage. 
 
-If you'd like to see changes in real time, use Google Chrome's Dev tools! Right-click anywhere on the webpage and select inspect element. Select any element on the page with the mouse and notice the editable CSS properties on the right-hand panel. 
+If you'd like to see changes in real time, use Google Chrome's Dev tools! Right-click anywhere on the webpage and select inspect element. Select any element on the page with the mouse and notice the editable CSS properties on the right-hand panel.
+
+# Step 11: Add a unique Galentine's Day message
+
+Using a paragraph tag (e.g. `<p></p>`), add a unique message for your card. It should go below your heart `<div>` tag and look something like this:
+
+```
+<p>You are the HTML to my CSS</p>
+```
