@@ -73,7 +73,8 @@ If it's working, you should see your celebratory message in the browser!
 
 Open up styles.css - it should be empty. The first rule we will write is to change the background color of the webpage using the body tag. In order to write a CSS rule, we need to use a tag or selector to apply the rule to. A body tag CSS rule will look like this:
 
-```body {
+```
+body {
     background-color: red;
 }
 ```
@@ -82,9 +83,69 @@ You can reference some generic color names like `red`. Developers will most ofte
 </br>
 Using a hex color will look like this:
 
-```body {
+```
+body {
     background-color: #ff2b00;
 }
 ```
 
-Refresh your browser to ensure the new rule has been added and is working. If it's not, you may want to check if the file is referenced correctly or try refreshing again!
+Refresh your browser to ensure the new rule has been added and is working. If it's not, you may want to check if the file is referenced correctly, make sure the file is saved and try refreshing again!
+
+# Step 9: Updating the header
+
+We can change the font and color of the header by referencing the header tag we used `h1` along with the `color` and `font-family` properties. It should look like this:
+
+```
+h1 {
+  color: white;
+  font-family: comic-sans;
+}
+```
+
+Bonus: if you want to play around with different fonts, check out these fonts available through Google fonts (https://fonts.google.com/) that can be imported into your `index.html` file
+
+# Step 9: Using CSS to make shapes
+
+We will now make use of HTML `<div>` tags (reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) and CSS `id` selectors (reference: https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors). In order to create a heart using CSS, we'll also need to make use of CSS pseudo-classes (reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). Let's start by creating a new `<div>` with an `id` attribute equal to `heart` in our HTML file. It should go in between your closing and opening `<body>` tags and look like this:
+
+```
+<div id="heart"></div>
+```
+
+Now we can reference the id in our styles.css by creating a new rule like this:
+
+```
+#heart {
+
+}
+```
+
+In order to create a heart using CSS, copy and paste this code into your `styles.css` file:
+
+```
+    #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+    ```
+    
+    Now refresh your browser and check out your heart!
