@@ -73,7 +73,8 @@ Open up styles.css - it should be empty. The first rule we will write is to chan
 
 ```body {
     background-color: red;
-}```
+}
+```
 
 You can reference some generic color names like `red`. Developers will most often use hex codes. You can explore different reds here: https://www.colorhexa.com/ff0000
 </br>
@@ -81,6 +82,7 @@ Using a hex color will look like this:
 
 ```body {
     background-color: #ff2b00;
-}```
+}
+```
 
 Refresh your browser to ensure the new rule has been added and is working. If it's not, you may want to check if the file is referenced correctly or try refreshing again!
