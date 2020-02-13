@@ -60,3 +60,27 @@ Add a `header` tag with a celebratory Galentine's day message (e.g. Happy Galent
 Read more about header tags here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
 </br>
 Hint: The number after the `h` in the tag corresponds to the size of the header :)
+
+#Step 8: Ensure our code runs in the browser
+
+You can open your `index.html` file in the browser multiple ways. It will vary depending on your code editor. You can right-click on your `index.html` file in the `Code` folder on your desktop and select the option to open in browser. The exact text will vary depend on your operating system. 
+</br>
+If it's working, you should see your celebratory message in the browser!
+
+# Step 8: Let's write our first CSS rule!
+
+Open up styles.css - it should be empty. The first rule we will write is to change the background color of the webpage using the body tag. In order to write a CSS rule, we need to use a tag or selector to apply the rule to. A body tag CSS rule will look like this:
+
+```body {
+    background-color: red;
+}```
+
+You can reference some generic color names like `red`. Developers will most often use hex codes. You can explore different reds here: https://www.colorhexa.com/ff0000
+</br>
+Using a hex color will look like this:
+
+```body {
+    background-color: #ff2b00;
+}```
+
+Refresh your browser to ensure the new rule has been added and is working. If it's not, you may want to check if the file is referenced correctly or try refreshing again!
