@@ -36,7 +36,7 @@ Open your new code editor, copy and paste this HTML template code into a new fil
 </body>
 </html>
 ```
-Save as `index.html` into your new `gDay` folder
+Save as `index.html` into your new Galentine's Day project folder
 
 # Step 5: Create and save a CSS file called `styles.css` in the same folder as your `index.html` file
 
