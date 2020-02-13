@@ -16,7 +16,7 @@ It's easy to forget where you saved a file, especially when you start coding! Le
 
 ![Desktop](https://i.imgur.com/yRiofSR.jpg)
 
-Create a new folder inside code and name your project. I am going to call mine `gDay` <3
+Create a new folder inside your `Code` folder and name your project. I am going to call mine `gDay` <3
 
 ![Desktop Folder](https://i.imgur.com/XXgKvwW.jpg)
 
