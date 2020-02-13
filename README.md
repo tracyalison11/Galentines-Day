@@ -138,7 +138,7 @@ In order to create a heart using CSS, copy and paste this code into your `styles
       top: 0;
       width: 50px;
       height: 80px;
-      background: red;
+      background: black;
       border-radius: 50px 50px 0 0;
       transform: rotate(-45deg);
       transform-origin: 0 100%;
@@ -148,6 +148,12 @@ In order to create a heart using CSS, copy and paste this code into your `styles
       transform: rotate(45deg);
       transform-origin: 100% 100%;
     }
-    ```
+```
     
-    Now refresh your browser and check out your heart!
+Now refresh your browser and check out your heart!
+    
+# Step 10: Take some time to change the CSS properties in your file or using Google Chrome Dev Tools
+
+If you'd like to change properties in your `styles.css` file, start with `background` and then change size properties like `height` and `width`. Refresh your browser to see how changing these values changes the content on the webpage. 
+
+If you'd like to see changes in real time, use Google Chrome's Dev tools! Right-click anywhere on the webpage and select inspect element. Select any element on the page with the mouse and notice the editable CSS properties on the right-hand panel. 
