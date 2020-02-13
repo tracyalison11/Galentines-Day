@@ -18,6 +18,8 @@ It's easy to forget where you saved a file, especially when you start coding, so
 
 Create a new folder inside code and name your project. I am going to call mine `gDay` <3
 
+![Desktop Folder](https://i.imgur.com/XXgKvwW.jpg)
+
 # Step 4: Create an `index.html` file and save in `Code` folder
 Open your new code editor, copy and paste this HTML template code into a new file:
 ```<!DOCTYPE html>
@@ -37,7 +39,6 @@ Save as `index.html` into your new `gDay` folder
 
 # Step 5: Create and save a CSS file called `styles.css` in the same folder as your `index.html` file
 
-![Desktop Folder](https://i.imgur.com/XXgKvwW.jpg)
 
 # Step 6: Reference your CSS file in `index.html` in between the open and closing `<head>` tags. It should look exactly like this:
 
