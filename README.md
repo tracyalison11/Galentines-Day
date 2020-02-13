@@ -57,7 +57,7 @@ Add a `header` tag with a celebratory Galentine's day message (e.g. Happy Galent
 
 ```
 <body>
-  <h1>Happy Galentine's Day!</<h1>
+  <h1>Happy Galentine's Day!</h1>
 </body>
 ```
 
