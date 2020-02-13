@@ -12,7 +12,7 @@ Sublime Text - https://www.sublimetext.com
 VS Code - https://www.code.visualstudio.com
 
 # Step 3: Create a Home for your current and future projects
-It's easy to forget where you saved a file, especially when you start coding, so let's start by creating a folder on your desktop called `Code`. See below for example:
+It's easy to forget where you saved a file, especially when you start coding! Let's start by creating a folder on your desktop called `Code`. See below for example:
 
 ![Desktop](https://i.imgur.com/yRiofSR.jpg)
 
