@@ -130,8 +130,8 @@ In order to create a heart using CSS, copy and paste this code into your `styles
       width: 100px;
       height: 90px;
     }
-    #heart:before,
-    #heart:after {
+    #heart::before,
+    #heart::after {
       position: absolute;
       content: "";
       left: 50px;
@@ -143,7 +143,7 @@ In order to create a heart using CSS, copy and paste this code into your `styles
       transform: rotate(-45deg);
       transform-origin: 0 100%;
     }
-    #heart:after {
+    #heart::after {
       left: 0;
       transform: rotate(45deg);
       transform-origin: 100% 100%;
