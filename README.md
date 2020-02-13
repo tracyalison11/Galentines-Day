@@ -22,7 +22,8 @@ Create a new folder inside code and name your project. I am going to call mine `
 
 # Step 4: Create an `index.html` file and save inside your new Galentine's Day project folder
 Open your new code editor, copy and paste this HTML template code into a new file:
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
