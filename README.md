@@ -1,7 +1,7 @@
 # Galentine's Day with Women Who Code DC
 Galentine's Day Virtual Cards Project
 
-# Step 1: Download a browser
+# Step 1: Download a Browser
 Google Chrome download: https://www.google.com/chrome/
 
 # Step 2: Download a Code Editor/IDE
