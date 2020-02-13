@@ -65,13 +65,13 @@ Read more about header tags here: https://developer.mozilla.org/en-US/docs/Web/H
 </br>
 Hint: The number after the `h` in the tag corresponds to the size of the header :)
 
-#Step 8: Ensure our code runs in the browser
+# Step 8: Ensure our code runs in the browser
 
 You can open your `index.html` file in the browser multiple ways. It will vary depending on your code editor. You can right-click on your `index.html` file in the `Code` folder on your desktop and select the option to open in browser. The exact text will vary depend on your operating system. 
 </br>
 If it's working, you should see your celebratory message in the browser!
 
-# Step 8: Let's write our first CSS rule!
+# Step 9: Let's write our first CSS rule!
 
 Open up styles.css - it should be empty. The first rule we will write is to change the background color of the webpage using the body tag. In order to write a CSS rule, we need to use a tag or selector to apply the rule to. A body tag CSS rule will look like this:
 
@@ -93,7 +93,7 @@ body {
 
 Refresh your browser to ensure the new rule has been added and is working. If it's not, you may want to check if the file is referenced correctly, make sure the file is saved and try refreshing again!
 
-# Step 9: Updating the header
+# Step 10: Updating the header
 
 We can change the font and color of the header by referencing the header tag we used `h1` along with the `color` and `font-family` properties. It should look like this:
 
@@ -106,7 +106,7 @@ h1 {
 
 Bonus: if you want to play around with different fonts, check out these fonts available through Google fonts (https://fonts.google.com/) that can be imported into your `index.html` file
 
-# Step 9: Using CSS to make shapes
+# Step 11: Using CSS to make shapes
 
 We will now make use of HTML `<div>` tags (reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) and CSS `id` selectors (reference: https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors). In order to create a heart using CSS, we'll also need to make use of CSS pseudo-classes (reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). Let's start by creating a new `<div>` with an `id` attribute equal to `heart` in our HTML file. It should go in between your closing and opening `<body>` tags and look like this:
 
@@ -152,13 +152,13 @@ In order to create a heart using CSS, copy and paste this code into your `styles
     
 Now refresh your browser and check out your heart!
     
-# Step 10: Take some time to change the CSS properties in your file or using Google Chrome Dev Tools
+# Step 12: Take some time to change the CSS properties in your file or using Google Chrome Dev Tools
 
 If you'd like to change properties in your `styles.css` file, start with `background` and then change size properties like `height` and `width`. Refresh your browser to see how changing these values changes the content on the webpage. 
 
 If you'd like to see changes in real time, use Google Chrome's Dev tools! Right-click anywhere on the webpage and select inspect element. Select any element on the page with the mouse and notice the editable CSS properties on the right-hand panel.
 
-# Step 11: Add a unique Galentine's Day message
+# Step 13: Add a unique Galentine's Day message
 
 Using a paragraph tag (e.g. `<p></p>`), add a unique message for your card. It should go below your heart `<div>` tag and look something like this:
 
